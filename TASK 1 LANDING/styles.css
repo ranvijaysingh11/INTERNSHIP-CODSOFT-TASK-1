@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Light gray background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('home.avif');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.menu {
+    padding: 2rem;
+    background-color: #fff; /* White background color for menu section */
+}
+
+.menu h2 {
+    text-align: center;
+    color: #ff9800; /* Orange color for menu section heading */
+}
+
+.menu-item {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    max-width: 10%;
+}
+
+.about {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light gray background color for about section */
+}
+
+.about h2 {
+    text-align: center;
+    color: #4caf50; /* Green color for about section heading */
+}
+
+.contact {
+    padding: 2rem;
+    background-color: #fff; /* White background color for contact section */
+}
+
+.contact h2 {
+    text-align: center;
+    color: #2196f3; /* Blue color for contact section heading */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Additional styles for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9800; /* Orange color for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ffac33; /* Lighter shade of orange on hover */
+}
